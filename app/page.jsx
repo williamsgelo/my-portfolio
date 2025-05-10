@@ -14,6 +14,7 @@ import vict from "@/assets/villas-web.png";
 import vealuxe from "@/assets/Vealuxe.png";
 import summarise from "@/assets/Summarise.png";
 import youtube from "@/assets/Youtube.png";
+import fabric from "@/assets/FF.png";
 
 export default function Home() {
   return (
@@ -157,11 +158,11 @@ export default function Home() {
               link="villasincapetown.com"
             />
             <ProjectCard
-              title="Travel Agency App"
-              description="A cross-platform mobile app for task management and productivity."
-              tags={["React Native", "Tailwind", "Appwrite"]}
-              image="/placeholder.svg?height=400&width=600"
-              link="#"
+              title="Mordern Apparrel Manuafactoring Website"
+              description="A modern website for a clothing manufacturing company."
+              tags={["Vue", "Nuxt3", "SCSS"]}
+              image={fabric}
+              link="https://fabricfusionco.com/"
             />
 
             <ProjectCard
