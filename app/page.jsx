@@ -189,14 +189,14 @@ export default function Home() {
               link="https://visionary-starlight-74de31.netlify.app/"
             />
           </div>
-          <div className="flex justify-center mt-8">
+          {/* <div className="flex justify-center mt-8">
             <Button
               variant="outline"
               className="border-zinc-800 text-white hover:bg-zinc-800"
             >
               View All Projects
             </Button>
-          </div>
+          </div> */}
         </section>
 
         {/* About Section */}
@@ -285,16 +285,20 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <SkillBadge name="JavaScript" />
             <SkillBadge name="TypeScript" />
-            <SkillBadge name="React" />
+            <SkillBadge name="Reactjs" />
+            <SkillBadge name="React Native" />
             <SkillBadge name="Next.js" />
             <SkillBadge name="Vue" />
             <SkillBadge name="Node.js" />
+            <SkillBadge name="Express.js" />
             <SkillBadge name="Tailwind CSS" />
             <SkillBadge name="HTML/CSS" />
-            <SkillBadge name="GraphQL" />
+            <SkillBadge name="WordPress" />
+            <SkillBadge name="Bootstrap" />
             <SkillBadge name="PostgreSQL" />
             <SkillBadge name="MongoDB" />
             <SkillBadge name="Git" />
+            <SkillBadge name="Docker" />
           </div>
         </section>
 
