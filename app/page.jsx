@@ -155,7 +155,7 @@ export default function Home() {
               description="A responsive website for a luxury villa rental service in Cape Town."
               tags={["Vue", "SCSS", "Directus CMS"]}
               image={vict}
-              link="villasincapetown.com"
+              link="https://villasincapetown.com"
             />
             <ProjectCard
               title="Mordern Apparrel Manuafactoring Website"
