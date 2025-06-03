@@ -15,6 +15,7 @@ import vealuxe from "@/assets/Vealuxe.png";
 import summarise from "@/assets/Summarise.png";
 import youtube from "@/assets/Youtube.png";
 import fabric from "@/assets/FF.png";
+import goatswindow from "@/assets/goats-window.png";
 
 export default function Home() {
   return (
@@ -144,19 +145,27 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProjectCard
-              title="E-Commerce Platform"
-              description="A full-stack e-commerce solution with payment processing and inventory management."
-              tags={["Next.js", "TypeScript", "Stripe"]}
-              image={ecommerce}
-              link="https://ecommerce-app-six-navy.vercel.app/"
-            />
-            <ProjectCard
               title="Villas in Cape Town Website"
               description="A responsive website for a luxury villa rental service in Cape Town."
               tags={["Vue", "SCSS", "Directus CMS"]}
               image={vict}
               link="https://villasincapetown.com"
             />
+            <ProjectCard
+              title="Goats Window"
+              description="Luxury safari and travel website showcasing unique experiences."
+              tags={["WordPress", "PHP"]}
+              image={goatswindow}
+              link="https://goatswindow.com"
+            />
+            <ProjectCard
+              title="E-Commerce Platform"
+              description="A full-stack e-commerce solution with payment processing and inventory management."
+              tags={["Next.js", "TypeScript", "Stripe"]}
+              image={ecommerce}
+              link="https://ecommerce-app-six-navy.vercel.app/"
+            />
+
             <ProjectCard
               title="Mordern Apparrel Manuafactoring Website"
               description="A modern website for a clothing manufacturing company."
@@ -168,7 +177,7 @@ export default function Home() {
             <ProjectCard
               title="Luxury Travel Website"
               description="Vealuxe is a web application for Elite Travel, Unmatched Luxury"
-              tags={["WordPress", "PHP", "MySQL"]}
+              tags={["WordPress", "PHP"]}
               image={vealuxe}
               link="https://vealuxe.com/"
             />
