@@ -15,6 +15,7 @@ import vealuxe from "@/assets/Vealuxe.png";
 import summarise from "@/assets/Summarise.png";
 import youtube from "@/assets/Youtube.png";
 import fabric from "@/assets/FF.png";
+import Bank from "@/assets/Bank.png";
 import goatswindow from "@/assets/goats-window.png";
 
 export default function Home() {
@@ -196,6 +197,14 @@ export default function Home() {
               tags={["React", "Redux", "OPENAI API"]}
               image={summarise}
               link="https://visionary-starlight-74de31.netlify.app/"
+            />
+
+            <ProjectCard
+              title="Mordern UI/UX business Landing Page"
+              description="A mordern UI/UX business landing page built with React and Tailwind CSS."
+              tags={["React", "Tailwind CSS"]}
+              image={Bank}
+              link="https://mordern-bank-ten.vercel.app/"
             />
           </div>
           {/* <div className="flex justify-center mt-8">
