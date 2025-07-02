@@ -310,10 +310,10 @@ export default function Home() {
             <SkillBadge name="Node.js" />
             <SkillBadge name="Express.js" />
             <SkillBadge name="Tailwind CSS" />
-            <SkillBadge name="HTML/CSS" />
+            <SkillBadge name="HTML5/CSS3" />
             <SkillBadge name="WordPress" />
             <SkillBadge name="Bootstrap" />
-            <SkillBadge name="PostgreSQL" />
+            <SkillBadge name="MYsql/PostgreSQL" />
             <SkillBadge name="MongoDB" />
             <SkillBadge name="Git" />
             <SkillBadge name="Docker" />
