@@ -17,6 +17,8 @@ import youtube from "@/assets/Youtube.png";
 import fabric from "@/assets/FF.png";
 import Bank from "@/assets/Bank.png";
 import goatswindow from "@/assets/goats-window.png";
+import wom from "@/assets/wom.png";
+import axara from "@/assets/axara.png";
 
 export default function Home() {
   return (
@@ -145,6 +147,20 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <ProjectCard
+              title="Axara Technologies Website"
+              description="A responsive website for a technology solutions company"
+              tags={["Vue", "Tailwind", "Directus CMS"]}
+              image={axara}
+              link="https://axaratechnologies.com"
+            />
+            <ProjectCard
+              title="Word of Mouth Website"
+              description="A responsive website for property referral services"
+              tags={["Vue", "Tailwind", "Directus CMS"]}
+              image={wom}
+              link="https://wordofmouth.co.za"
+            />
             <ProjectCard
               title="Villas in Cape Town Website"
               description="A responsive website for a luxury villa rental service in Cape Town."
